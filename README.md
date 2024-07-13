@@ -1,6 +1,6 @@
 # solidpython2 and OpenSCAD
 
-### Intro?
+### Intro:
 
 I set up this repository to act as a working environment for creating personal 3D prints. Everything here is free to use for any purpose. This is all here because I like the idea of using `git` to hold and track all my 3D models.
 
