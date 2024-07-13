@@ -1,0 +1,6 @@
+# don't track any outputs, only the python scripts
+*.scad
+*.stl
+
+# ignore python environment
+venv
