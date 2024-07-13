@@ -28,12 +28,6 @@ def make_panel_with_screwholes():
 
 
 panel_with_screwholes = make_panel_with_screwholes()
-panel_with_screwholes_vertical = (
-    make_panel_with_screwholes()
-    .rotate(90, 0, 0)
-    .translate(0, 0, BRACKET_SIDE_THICKNESS)
-)
-
-model = panel_with_screwholes + panel_with_screwholes_vertical
+model = panel_with_screwholes
 
 model.save_as_scad()
