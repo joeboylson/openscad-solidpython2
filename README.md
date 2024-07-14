@@ -12,11 +12,11 @@ Reach out if you have any questions or suggestions!
 
 I bought my first 3D printer in the Spring of 2024 and I initially used Blender (without any plugins) to generate my first 3D models. Blender was free and had tons of resources and so I thought it was the best tool for the job.
 
-Then I discovered parametric vs direct modeling and how one could be better than the other. Coming from the software development world, I thought that parametric modeling would suit me _much_ better as my style of modeling is based more on math and measurements than sculpting and artistic expression.
+Then I discovered parametric vs direct modeling and how one could be better than the other. I thought that parametric modeling would suit me _much_ better as my style of modeling is based more on math and measurements than sculpting and artistic expression.
 
-Then I wondered if all this could be done in a programming language; this led me to OpenSCAD which _then_ led me to the python-`solidpython2` combo.
+Then, because I come from the software development world, I wondered if all this could be done in a _programming language_; this led me to OpenSCAD which _then_ led me to `solidpython2`.
 
-And now here we are: a system where I can use the VSCode environment and python (both of which I am exceedingly familiar with) to generate 3D models.
+And after a little setup, here we are: a system where I can use the VSCode environment and python (both of which I am exceedingly familiar with) to generate 3D models.
 
 And this is all free! And open source!
 
@@ -55,10 +55,10 @@ nodemon --exec python3 path/to/your/python/script.py
 ```
 from solid2 import *
 model = cube(10, 10, 10)
-model.save_as_scad()
+model.save_as_scad() # this line is important!
 ```
 
-7. Right click and choose "Preview in OpenSCAD". This should open OpenSCAD and allow you to preview your model.
+7. Right click on the new `.scad` file and choose "Preview in OpenSCAD". This should open OpenSCAD and allow you to preview your model.
 
 8. Edit your python script to see your model refresh in realtime! (nodemon > update `.scad` file > OpenSCAD preview hot reload)
 
