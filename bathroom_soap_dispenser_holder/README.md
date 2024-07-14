@@ -9,4 +9,4 @@ This model is fit to use the holes in the existing infrastructure and to provide
 ---
 
 ![OpenSCAD screenshot](./index.png "OpenSCAD screenshot")
-![IRL implementation](./irl-implementation.png "IRL implementation")
+![IRL implementation](./20240713_235846.jpg "IRL implementation")
